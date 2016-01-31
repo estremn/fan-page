@@ -1,0 +1,45 @@
+body {
+    color: #131a20;
+    background-color: #b6babb;
+}
+
+header {
+    color: #b6babb;
+    background-color: #131a20;
+}
+
+nav {
+    color: #b6babb;
+    background-color: #131a20;
+}
+
+h1 {
+    color: #b6babb;
+    background-color: #314252;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h3 {
+    color: #b6babb;
+    background-color: #314252;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.link {
+    color: #545b65;
+}
+
+.emailLink {
+    color: #131a20
+}
+
+footer {
+    background-color: #314252;
+}
+
+.copyright {
+    color: #545b65;
+    background-color: #131a20;
+}
