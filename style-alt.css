@@ -1,43 +1,85 @@
 body {
     color: black;
-    background-color: #6d8dd5;
+    background-color: darkcyan;
+    font-family: sans-serif;
+    font-size: 110%;
+    background-image: url(images/tardis_door.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 header {
-    color: #a64800;
-    background-color: #389e28;
+    color: rebeccapurple;
+    background-color: #131a20;
+    font-size: 200%;
+    line-height: 400%;
+    text-align: center;
 }
 
 nav {
     color: #b6babb;
-    background-color: #389e28;
+    background-color: #131a20;
+    font-family: sans-serif;
+    font-size: 180%;
+    line-height: 200%;
+    text-align: center;
 }
 
 h1 {
+    color: aqua;
+    background-color: #314252;
     margin-bottom: 0;
     margin-top: 0;
+    font-family: serif;
+    font-size: 180%;
+    line-height: 200%;
 }
 
 h3 {
-    color: #a64800;
-    background-color: #7ae969;
+    color: #b6babb;
+    background-color: #314252;
     margin-bottom: 0;
     margin-top: 0;
+    font-family: serif;
+    font-size: 150%;
+    line-height: 150%;
+}
+
+dt {
+    color: darkviolet;
+    background-color: #314252;
+    margin-left: .5%;
+    margin-right: .5%;
+    font-family: serif;
+    font-size: 125%;
+}
+
+li {
+    background-color: #b6babb;
+}
+
+p {
+    background-color: #b6babb;
 }
 
 .link {
-    color: #545b65;
+    text-decoration: none;
+}
+
+.current {
+    text-decoration: none;
+    color: dimgrey;
 }
 
 .emailLink {
-    color: #131a20
+    color: #131a20;
+    text-decoration: none;
 }
 
 footer {
-    background-color: #7ae969;
-}
-
-.copyright {
-    color: #545b65;
-    background-color: #389e28;
+    color: #314252;
+    text-align: center;
+    margin-top: 5%;
+    font-style: italic;
 }
