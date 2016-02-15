@@ -4,31 +4,38 @@
 <head>
     <title>It's Bigger on the Inside</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="Style.css"> </head>
+    <link rel="stylesheet" href="style.css"> </head>
 
 <body>
-    <header>
-        <h1>The <em>Unofficial</em> Doctor Who Fan Page</h1>
-    </header>
-    <nav>
-        <a class="link" href="index.html">Home</a>&nbsp;
-        <a class="current" href="terminology.html">Terminology</a>&nbsp;
-        <a class="link" href="https://en.wikipedia.org/wiki/Doctor_Who">Wikipedia</a>&nbsp;
-        <a class="link" href="index-alt.html">AltHome</a>&nbsp;
-    </nav>
-    <main>
-        <h3>These are a few keywords that people should know about Doctor Who</h3>
-        <dl>
-            <dt>TARDIS</dt>
-            <dd>Time And Relevant Dimension In Space; The Doctor's method of traveling and time traveling alike. The Tardis is able to go almost anywhere and almost anytime. The Doctor often leaves the Tardis in awkward places that end up making it difficult to return after they leave.</dd>
-        </dl>
+    <div id="wrapper">
+        <header>
+            <h1>The <em>Unofficial</em> Doctor Who Fan Page</h1>
+        </header>
+        <nav>
+            <a class="link" href="index.html">Home</a>&nbsp;
+            <a id="currentPage" href="terminology.html">Terminology</a>&nbsp;
+            <a class="link" href="https://en.wikipedia.org/wiki/Doctor_Who">Wikipedia</a>&nbsp;
+            <a class="link" href="index-alt.html">AltHome</a>&nbsp;
+        </nav>
+        <main>
+            <h3 class="defListIntro">These are a few keywords that people should know about Doctor Who</h3>
+            <dl>
+                <dt>TARDIS</dt>
+                <div>
+                    <dd>Time And Relevant Dimension In Space; The Doctor's method of traveling and time traveling alike. The Tardis is able to go almost anywhere and almost anytime. The Doctor often leaves the Tardis in awkward places that end up making it difficult to return after they leave.</dd>
+                </div>
+                <div>
+                    <a id="tardisThumb" href="images/tardisOcean1.jpg"><img src="images/tardisOceanThumbnail.jpg" height="200" width="155" alt="Dr. Who's Tardis"> </a>
+                </div>
+            </dl>
 
-    </main>
-    <footer>
-        <small>
+        </main>
+        <footer>
+            <small id="copyright">
     Copyright &copy; 2016 Nathan Estrem. All Rights Reserved.
     </small>
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>

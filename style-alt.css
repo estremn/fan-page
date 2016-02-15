@@ -1,35 +1,39 @@
 body {
-    color: black;
-    background-color: darkcyan;
+    color: lightcyan;
+    background-color: #b6babb;
     font-family: sans-serif;
     font-size: 110%;
-    background-image: url(images/tardis_door.jpg);
+    text-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 2px black;
+    background-image: url(images/tardisDoorMono.jpg);
     background-repeat: no-repeat;
+    background-size: 85%;
     background-position: center;
-    background-size: cover;
 }
 
 header {
-    color: rebeccapurple;
-    background-color: #131a20;
+    color: #b6babb;
+    background-image: url(images/spaceBanner.jpg);
+    border-radius: 50px;
     font-size: 200%;
     line-height: 400%;
     text-align: center;
+    text-shadow: 3px 3px 5px black;
 }
 
 nav {
     color: #b6babb;
-    background-color: #131a20;
+    background: radial-gradient(ellipse farthest-corner, #314252, #131a20);
     font-family: sans-serif;
     font-size: 180%;
     line-height: 200%;
     text-align: center;
+    text-shadow: 0px 0px 7px black;
+    margin-bottom: 3%;
 }
 
 h1 {
-    color: aqua;
-    background-color: #314252;
-    margin-bottom: 0;
+    color: #b6babb;
     margin-top: 0;
     font-family: serif;
     font-size: 180%;
@@ -38,7 +42,6 @@ h1 {
 
 h3 {
     color: #b6babb;
-    background-color: #314252;
     margin-bottom: 0;
     margin-top: 0;
     font-family: serif;
@@ -47,20 +50,20 @@ h3 {
 }
 
 dt {
-    color: darkviolet;
-    background-color: #314252;
+    color: #b6babb;
     margin-left: .5%;
     margin-right: .5%;
     font-family: serif;
     font-size: 125%;
 }
 
-li {
-    background-color: #b6babb;
-}
-
 p {
-    background-color: #b6babb;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 20px;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #314252;
 }
 
 .link {
@@ -73,7 +76,7 @@ p {
 }
 
 .emailLink {
-    color: #131a20;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -81,5 +84,12 @@ footer {
     color: #314252;
     text-align: center;
     margin-top: 5%;
-    font-style: italic;
+    text-shadow: 0px 0px 3px black;
+}
+
+#wrapper {
+    width: 85%;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
