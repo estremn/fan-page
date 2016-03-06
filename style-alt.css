@@ -1,95 +1,154 @@
 body {
-    color: lightcyan;
-    background-color: #b6babb;
-    font-family: sans-serif;
-    font-size: 110%;
-    text-shadow: 0px 0px 1px black;
-    text-shadow: 0px 0px 2px black;
-    background-image: url(images/tardisDoorMono.jpg);
+    background: linear-gradient(to bottom, #314252, #131a20);
+    /*    background-image: url(images/)*/
     background-repeat: no-repeat;
-    background-size: 85%;
-    background-position: center;
+    color: #b6babb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     color: #b6babb;
     background-image: url(images/spaceBanner.jpg);
-    border-radius: 50px;
-    font-size: 200%;
-    line-height: 400%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
     text-align: center;
-    text-shadow: 3px 3px 5px black;
+    padding-top: 0;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px #131a20;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 nav {
+    font-weight: bold;
+    padding: 20px;
+    float: left;
+    width: 160px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+    font-size: 1.8em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
     color: #b6babb;
-    background: radial-gradient(ellipse farthest-corner, #314252, #131a20);
-    font-family: sans-serif;
-    font-size: 180%;
-    line-height: 200%;
-    text-align: center;
-    text-shadow: 0px 0px 7px black;
-    margin-bottom: 3%;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: mediumpurple;
+}
+
+nav a:active {
+    color: mediumpurple;
+}
+
+main {
+    background-image: url(images/tardisTexture.jpg);
+    margin-left: 190px;
+    padding: 1px 20px 20px;
+    padding-left: 30px;
+    display: block;
+}
+
+main ul {
+    list-style-type: armenian;
+    font-size: 120%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #131a20;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 50px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main a {
+    text-decoration: none;
+    font-style: italic;
+    color: inherit;
 }
 
 h1 {
-    color: #b6babb;
     margin-top: 0;
-    font-family: serif;
-    font-size: 180%;
-    line-height: 200%;
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    color: #b6babb;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #314252;
+    text-transform: capitalize;
+    font-size: 175%;
+    text-align: center;
 }
 
 h3 {
-    color: #b6babb;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-family: serif;
-    font-size: 150%;
-    line-height: 150%;
-}
-
-dt {
-    color: #b6babb;
-    margin-left: .5%;
-    margin-right: .5%;
-    font-family: serif;
-    font-size: 125%;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 p {
-    background-color: rgba(0, 0, 0, .6);
-    padding: 20px;
-    border-width: medium;
+    font-size: 120%;
+    text-align: center;
     border-style: solid;
+    border-width: 5px;
+    border-color: #131a20;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(0, 0, 0, .6);
     border-radius: 50px;
-    border-color: #314252;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.current {
-    text-decoration: none;
-    color: dimgrey;
-}
-
-.emailLink {
-    color: whitesmoke;
-    text-decoration: none;
 }
 
 footer {
-    color: #314252;
+    color: grey;
+    padding: 20px;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
     text-align: center;
-    margin-top: 5%;
-    text-shadow: 0px 0px 3px black;
+    margin-left: 190px;
+    background-color: #131a20;
 }
 
 #wrapper {
-    width: 85%;
-    min-width: 800px;
+    background-color: #131a20;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
+    min-width: 1024px;
+    max-width: 2048px;
 }
+
+#banner {
+    background: linear-gradient(to top, #b6babb, purple);
+    background-image: url(images/doctorsBanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 100%, 100%;
+    margin-left: 190px;
+    margin-top: 0;
+}
+
+#contact {}

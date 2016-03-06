@@ -1,94 +1,136 @@
 body {
+    background-color: #314252;
+    /*    background-image: url(images/)*/
+    background-repeat: no-repeat;
     color: #131a20;
-    background-color: #b6babb;
-    font-family: sans-serif;
-    font-size: 115%;
-    text-shadow: 0px 0px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     color: #b6babb;
     background-image: url(images/spaceBanner.jpg);
-    border-radius: 50px;
-    font-size: 200%;
-    line-height: 400%;
+    background-repeat: no-repeat;
     text-align: center;
-    text-shadow: 3px 3px 5px black;
+    padding-top: 0;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px #131a20;
+    margin-bottom: 10px;
+    border-radius: 15%;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 nav {
-    color: #b6babb;
-    background: radial-gradient(ellipse farthest-corner, #131a20, #131a20 50%, #314252);
-    border-radius: 50px;
-    font-family: sans-serif;
-    font-size: 180%;
-    line-height: 200%;
-    text-align: center;
-    text-shadow: 0px 0px 7px black;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 3%;
+    font-weight: bold;
+    padding: 20px;
+    float: left;
+    width: 200px;
 }
 
-footer {
-    color: #314252;
-    text-align: center;
-    margin-top: 5%;
-    text-shadow: 0px 0px 3px black;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+    font-size: 1.8em;
+}
+
+nav a {
+    text-decoration: none;
+    text-shadow: 0px 0px 1px black;
+}
+
+nav a:link {
+    color: #b6babb;
+}
+
+nav a:visited {
+    color: #131a20;
+}
+
+nav a:hover {
+    color: mediumpurple;
+}
+
+nav a:active {
+    color: mediumpurple;
+}
+
+main {
+    background-color: #b6babb;
+    margin-left: 240px;
+    padding: 1px 20px 20px;
+    padding-left: 30px;
+    display: block;
+}
+
+main ul {
+    list-style-type: armenian;
+}
+
+main ul li {
+    font-size: 115%;
+}
+
+main a {
+    text-decoration: none;
+    font-style: italic;
+    color: inherit;
 }
 
 h1 {
-    font-family: serif;
-    font-size: 180%;
-    line-height: 200%;
     margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    color: #314252;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #314252;
+    text-transform: uppercase;
 }
 
 h3 {
-    padding-left: 20px;
-    color: #b6babb;
-    background-color: #314252;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-family: serif;
-    font-size: 150%;
-    line-height: 150%;
-}
-
-dt {
-    color: #b6babb;
-    background-color: #314252;
-    margin-left: .5%;
-    margin-right: .5%;
-    font-family: serif;
-    font-size: 125%;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 p {
-    text-indent: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 115%;
+    text-indent: 30px;
 }
 
-.link {
-    text-decoration: none;
-}
-
-#currentPage {
-    text-decoration: none;
-    color: dimgrey;
-}
-
-#ContactEmail {
-    color: #131a20;
-    text-decoration: none;
+footer {
+    color: #333333;
+    padding: 20px;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    margin-left: 240px;
+    background-color: #b6babb;
 }
 
 #wrapper {
-    width: 85%;
-    min-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
+    min-width: 1024px;
+    max-width: 2048px;
+    background: linear-gradient(to bottom, #314252 280px, #131a20)
 }
 
-#defListIntro {}
+#banner {
+    background: linear-gradient(to top, #b6babb, purple);
+    background-image: url(images/doctorsBanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 90%, 100%;
+    margin-bottom: 10px;
+}
+
+#contact {}
