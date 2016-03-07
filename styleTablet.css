@@ -10,29 +10,32 @@ header {
     color: #b6babb;
     background-image: url(images/spaceBanner.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.2em;
     text-shadow: 2px 2px 3px #131a20;
 }
 
 header h1 {
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 nav {
     font-weight: bold;
-    padding: 20px;
     float: left;
-    width: 200px;
+    width: 160px;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 0;
-    padding-bottom: 15px;
-    font-size: 1.8em;
+    padding: 0;
+    font-size: 1.5em;
+    text-align: center;
+    position: fixed;
 }
 
 nav a {
@@ -40,6 +43,11 @@ nav a {
     text-shadow: 0px 0px 1px black;
     display: block;
     margin-bottom: 20px;
+    background-color: #131a20;
+    padding: 10px 5px 10px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: black;
 }
 
 nav a:link {
@@ -47,7 +55,7 @@ nav a:link {
 }
 
 nav a:visited {
-    color: #131a20;
+    color: #b6babb;
 }
 
 nav a:hover {
@@ -60,7 +68,7 @@ nav a:active {
 
 main {
     background-color: #b6babb;
-    margin-left: 240px;
+    margin-left: 190px;
     padding: 1px 20px 20px;
     padding-left: 30px;
     display: block;
@@ -109,17 +117,17 @@ footer {
     font-style: italic;
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
-    margin-left: 240px;
+    margin-left: 190px;
     background-color: #b6babb;
 }
 
 #wrapper {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    min-width: 1024px;
-    max-width: 2048px;
-    background: linear-gradient(to bottom, #314252 280px, #131a20)
+    width: 100%;
+    min-width: 480px;
+    max-width: 1028px;
+    background: linear-gradient(to bottom, #314252, #131a20)
 }
 
 #banner {
@@ -127,9 +135,9 @@ footer {
     background-image: url(images/doctorsBanner.png);
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 160px;
     background-size: 100%, 100%;
-    margin-left: 240px;
+    margin-left: 190px;
 }
 
 #contact {}
